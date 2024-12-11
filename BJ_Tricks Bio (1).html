@@ -1,160 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BJ TRICKS BIO</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #fff;
-            background: #000;
-        }
-        .video-bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
-        }
-        .container {
-            max-width: 400px;
-            margin: 20px auto;
-            padding: 15px;
-            background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-            text-align: center;
-            animation: fadeIn 1s ease-in-out;
-        }
-        h1, h2, p {
-            color: #fff;
-            text-transform: uppercase;
-            text-shadow: 0 0 10px silver;
-            animation: textGlow 0.8s ease-in-out infinite;
-            margin-bottom: 10px;
-            font-size: 1.2em;
-        }
-        p {
-            font-size: 0.85em;
-        }
-        .inline-details {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
-        .inline-details div {
-            width: 33%;
-            text-align: center;
-            animation: textGlow 0.8s ease-in-out infinite;
-        }
-        .place {
-            font-size: 0.8em; /* Smaller text for Place */
-        }
-        .best-friend {
-            font-size: 0.8em; /* Smaller text for Best Friend */
-        }
-        .section ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .section ul li {
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 6px;
-            margin-bottom: 6px;
-            border-radius: 5px;
-            text-transform: uppercase;
-            text-shadow: 0 0 10px silver;
-            animation: textGlow 0.8s ease-in-out infinite;
-            font-size: 0.85em;
-        }
-        a {
-            color: #fff;
-            text-decoration: none;
-            text-shadow: 0 0 10px silver;
-            animation: textGlow 0.8s ease-in-out infinite;
-        }
-        a:hover {
-            color: #00ffcc;
-        }
-        .title {
-            text-align: center;
-            margin-bottom: 15px;
-            font-size: 1.8em;
-            font-weight: bold;
-            color: #fff;
-            text-shadow: 0 0 15px silver;
-            animation: textGlow 0.8s ease-in-out infinite;
-        }
-        img {
-            border-radius: 50%;
-            width: 100px; /* Smaller size for the profile picture */
-            height: 100px; /* Smaller size for the profile picture */
-            margin-bottom: 15px;
-            animation: fadeIn 1s ease-in-out;
-        }
-        /* Animation Keyframes */
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        @keyframes textGlow {
-            0% { text-shadow: 0 0 10px silver, 0 0 20px silver; }
-            50% { text-shadow: 0 0 20px silver, 0 0 30px silver; }
-            100% { text-shadow: 0 0 10px silver, 0 0 20px silver; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <<meta name="google-site-verification" content="d-eTuMwW8mpwRPO1G728qBSkDWz7LNceJQArcody5Uo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AHM7 COURSES</title>
+  <style>
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #ffffff;
+      background: linear-gradient(180deg, #121212, #1e1e1e);
+      overflow-x: hidden;
+    }
+
+    /* Header Section */
+    header {
+      background: linear-gradient(135deg, #00FFCC, #0066FF);
+      padding: 5rem 1rem;
+      text-align: center;
+      color: black;
+    }
+
+    .header-content h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px #00FF66;
+    }
+
+    .header-content p {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+    }
+
+    .header-content .btn-primary {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      background: #ffffff;
+      color: #0066FF;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .header-content .btn-primary:hover {
+      background: #00FF66;
+      color: #ffffff;
+      transform: scale(1.1);
+    }
+
+    /* Main Section */
+    main {
+      padding: 2rem 1rem;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #00FFFF;
+    }
+
+    /* Channel Cards */
+    .channel-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+
+    .channel-card {
+      background: #1e1e1e;
+      border-radius: 10px;
+      text-align: center;
+      padding: 2rem;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .channel-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 255, 255, 0.5);
+    }
+
+    .channel-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #00FFFF;
+    }
+
+    .btn-glow {
+      display: inline-block;
+      padding: 0.5rem 1.5rem;
+      background: linear-gradient(45deg, #00FF00, #00FFFF);
+      color: #121212;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FF00;
+      transition: all 0.3s;
+    }
+
+    .btn-glow:hover {
+      box-shadow: 0 0 20px #00FFFF, 0 0 40px #00FF00;
+      transform: scale(1.1);
+    }
+
+    /* Footer Section */
+    footer {
+      background: #1e1e1e;
+      text-align: center;
+      padding: 1rem 0;
+      color: #ffffff;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-
-    <video class="video-bg" autoplay muted loop>
-        <source src="https://BJ-Devs.serv00.net/Bjtricks.mp4?v=1727712312654" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-    <div class="container">
-        <div class="title">BJ TRICKS 𝗛4𝗫 𝗕𝗜𝗢</div>
-
-        <img src="https://i.ibb.co/kDz7bj3/20200927-140432.png" alt="Profile Picture">
-        
-        <h1><a href="https://t.me/BJ_Coder">BJ TRICKS 𝗛4𝗫</a></h1>
-
-        <div class="inline-details">
-            <div class="place">𝗣𝗜𝗔𝗖𝗘 : PAKISTAN</div>
-            <div>𝗔𝗚𝗘 → 18</div>
-            <div class="best-friend"><a href="https://t.me/HACKER_COMMUNTY1">𝗕𝗘𝗦𝗧 𝗙𝗥𝗜𝗘𝗡𝗗 →Abdullah-Khan 🗿</a></div>
-        </div>
-
-        <div class="section">
-            <h2>𝗦𝗞𝗜𝗜𝗜𝗦 𝗔𝗡𝗗 𝗘𝗫𝗣𝗘𝗥𝗧</h2>
-            <ul>
-                <li>ᴇᴛʜIᴄᴀl ʜᴀᴄᴋIɴɢ </li>
-                <li>ᴡᴇʙ ᴍᴀᴋIɴɢ </li>
-                <li>ᴛᴇʀᴍᴜx ᴇxᴘᴇʀᴛ</li>
-                <li>ᴛᴇʀᴍᴜx ᴛᴏᴏls ᴍᴀᴋIɴɢ </li>
-                <li>ᴘʜIsʜIɴɢ ᴡᴇʙ ᴍᴀᴋIɴɢ </li>
-                <li>ᴡᴇʙ Iɴғᴏ sᴄʀᴀᴘIɴɢ </li>
-                <li>ɴᴇᴛᴡᴏʀᴋ sᴇᴄᴜʀIᴛʏ</li>
-                <li>ᴇᴛᴄ</li>
-            </ul>
-        </div>
-
-        <div class="section admins">
-            <h2>𝗔𝗗𝗠𝗜𝗡𝗦 𝗢𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗜𝗦</h2>
-            <ul>
-                <li><a href="https://t.me/botsworldtar">IɴᴅIᴀɴ ᴄᴏᴅᴇʀ</a></li>
-                <li><a href="https://t.me/BlackHatFrozenX">IɴᴅIᴀɴ ᴄᴏᴜʀsᴇ</a></li>
-                <li><a href="https://t.me/TBEH_TOOL">ᴘʀᴇᴍIᴜᴍ ᴄᴏᴅᴇs</a></li>
-            </ul>
-        </div>
+  <header>
+    <div class="header-content">
+      <h1>Welcome to AHM7 Channels</h1>
+      <p>Your one-stop Hub For All WhatsApp And Telegram Channels!</p>
+      <a href="#channels" class="btn btn-primary">Explore Channels</a>
     </div>
+  </header>
 
+  <main>
+    <section id="channels">
+      <h2 class="section-title">Our Channels</h2>
+      <div class="channel-container">
+        <div class="channel-card">
+          <h3>AHM7 TECH (main)</h3>
+          <a href="https://whatsapp.com/channel/0029VaOqbIr2P59sgcIri51d" target="_blank" class="btn btn-glow">Join</a>
+        </div>
+        <div class="channel-card">
+          <h3>AHM7 Courses</h3>
+          <a href="https://whatsapp.com/channel/0029VaeW5vf05MUaVgitg30e" target="_blank" class="btn btn-glow">Join</a>
+        </div>
+        <div class="channel-card">
+          <h3>Free Premium Accounts</h3>
+          <a href="https://whatsapp.com/channel/0029Vatge3FAInPchUPfG320" target="_blank" class="btn btn-glow">Join</a>
+        </div>
+        <div class="channel-card">
+          <h3>Udemy by AHM7</h3>
+          <a href="https://whatsapp.com/channel/0029Var82nZCxoAskPVlhM2T" target="_blank" class="btn btn-glow">Join</a>
+        </div>
+        <div class="channel-card">
+          <h3>Hacking with AHM7</h3>
+          <a href="https://whatsapp.com/channel/0029VavGwle65yDAb1ZXeI2p" target="_blank" class="btn btn-glow">Join</a>
+        </div>
+        <div class="channel-card">
+          <h3>Whatsapp Stickers</h3>
+          <a href="https://whatsapp.com/channel/0029VaaxEtDLSmbUxcVGyg13" target="_blank" class="btn btn-glow">Join</a>
+        </div>
+        <div class="channel-card">
+          <h3>Telegram(access all previous data)</h3>
+          <a href="https://t.me/+uDM12rJJFEtmMzBk" target="_blank" class="btn btn-glow">Join</a>
+        </div>
+        <div class="channel-card">
+          <h3>Free Paid Stuff Bot</h3>
+          <a href="https://t.me/Ahm7FreeModx_bot" target="_blank" class="btn btn-glow">Visit</a>
+          </div>
+        <div class="channel-card">
+          <h3>Contact Us</h3>
+          <a href="https://t.me/TextAHM_bot" target="_blank" class="btn btn-glow">Visit</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 AHM7 | Designed with ❤ By Bro MM ️</p>
+  </footer>
 </body>
 </html>
